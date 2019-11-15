@@ -1,4 +1,4 @@
-name: .NET Core
+name: ActionExample1.CI
 
 on: [push]
 
