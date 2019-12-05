@@ -16,5 +16,5 @@ jobs:
     - name: First build it with dotnet
       run: dotnet build --configuration Release
     - name: And then we test it
-      run: dotnet test --verbosity normal
+      run: dotnet test --configuration Release  --no-build --no-restore --verbosity normal
       
